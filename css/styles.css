@@ -7,6 +7,10 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primari-text-color);
+    width: 1600px;
+    height: 2346px;
+
+    background: #ffffff;
 }
 .list {
     list-style-type: none;
@@ -69,13 +73,14 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36x;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
 }
 .hero-btn {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -87,6 +92,18 @@ body {
 
 /* --------------Benefits-------------- */
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -97,14 +114,14 @@ body {
 }
 .section-benefits .text {
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 .section-benefits .subtitle {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primari-text-color);
@@ -113,7 +130,14 @@ body {
 /* --------------Portfolio-------------- */
 
 /* .section-teams {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+
+    background: #f5f4fa;
 } */
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -164,6 +188,7 @@ body {
 /* --------------Portfolio.HTML-------------- */
 
 .btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
