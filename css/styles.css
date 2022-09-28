@@ -50,7 +50,6 @@ body {
     color: var(--secondary-text-color);
 }
 
-
 .link:hover,
 .link:focus,
 .navigation-list .link.current {
@@ -160,4 +159,39 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* --------------Portfolio.HTML-------------- */
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+    background-color: #f5f4fa;
+}
+.btn:hover,
+.btn:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: var(--accent-text-color);
+}
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primari-text-color);
+}
+.direction {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
