@@ -50,10 +50,10 @@ body {
     color: var(--secondary-text-color);
 }
 
-.contact-list .link:hover,
-.contact-list .link:focus,
+
 .link:hover,
-.link:focus {
+.link:focus,
+.navigation-list .link.current {
     color: var(--accent-text-color);
 }
 
